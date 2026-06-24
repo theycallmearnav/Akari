@@ -1,4 +1,4 @@
-<p align="center"> <img src="./assets/banner.jpg" alt="AKARI Banner" width="100%"> </p> <p align="center"> <img src="./assets/baddie.jpg" alt="AKARI Logo" width="180"> </p> <h1 align="center">🌸 AKARI</h1> <p align="center"> <b>The Ultimate Discord Music Bot</b><br> A bot with the smoothest music experience and high-quality streaming. </p> <p align="center"> <a href="https://dsc.gg/quantumdev">Support Server</a> </p>
+<p align="center"> <img src="./assets/banner_.jpg" alt="AKARI Banner" width="100%"> </p> <p align="center"> <img src="./assets/baddie.jpg" alt="AKARI Logo" width="180"> </p> <h1 align="center">🌸 AKARI</h1> <p align="center"> <b>The Ultimate Discord Music Bot</b><br> A bot with the smoothest music experience and high-quality streaming. </p> <p align="center"> <a href="https://dsc.gg/quantumdev">Support Server</a> </p>
 
 
 # AKARI
