@@ -1,0 +1,38 @@
+{
+  "token": "YOUR_BOT_TOKEN",
+  "prefix": "*",
+  "publicCommandMode": "music",
+  "ownerID": [],
+  "SpotifyID": "",
+  "SpotifySecret": "",
+  "LastFmKey": "",
+  "LastFmSecret": "",
+  "color": "#00D4FF",
+  "logs": "",
+  "node_source": "ytsearch",
+  "links": {
+    "support": "https://discord.com/invite/K4R8dUBEB4",
+    "invite": "",
+    "guild": "https://discord.com/invite/K4R8dUBEB4"
+  },
+  "Webhooks": {
+    "black": "",
+    "player_create": "",
+    "player_delete": "",
+    "guild_join": "",
+    "guild_leave": "",
+    "cmdrun": ""
+  },
+  "nodes": [],
+  "node_options": {
+    "moveOnDisconnect": true,
+    "resume": true,
+    "resumeTimeout": 300,
+    "resumeByLibrary": true,
+    "reconnectTries": 1,
+    "reconnectInterval": 5,
+    "restTimeout": 60,
+    "voiceConnectionTimeout": 30,
+    "userAgent": "AKARI"
+  }
+}

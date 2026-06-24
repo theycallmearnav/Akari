@@ -1,0 +1,34 @@
+{
+  "$schema": "https://json.schemastore.org/package.json",
+  "name": "akari",
+  "main": "index.js",
+  "scripts": {
+    "postinstall": "node scripts/verify-native-deps.js",
+    "deploy:linux": "npm ci --omit=dev && npm run rebuild:native",
+    "rebuild:native": "npm rebuild better-sqlite3",
+    "smoke": "node scripts/smoke-test.js",
+    "start": "node --no-warnings index.js",
+    "dev": "nodemon --no-warnings index.js"
+  },
+  "engines": {
+    "node": "22.x || 24.x || 25.x",
+    "npm": ">=10"
+  },
+  "dependencies": {
+    "@discordjs/voice": "^0.18.0",
+    "axios": "^1.18.0",
+    "better-sqlite3": "^12.8.0",
+    "discord.js": "^14.26.4",
+    "dotenv": "^16.4.7",
+    "kazagumo": "^3.3.0",
+    "kazagumo-spotify": "^2.1.1",
+    "moment-timezone": "^0.5.48",
+    "ms": "^2.1.3",
+    "shoukaku": "^4.1.1",
+    "undici": "^7.24.7"
+  },
+  "overrides": {
+    "form-data": "4.0.6",
+    "ws": "8.21.0"
+  }
+}

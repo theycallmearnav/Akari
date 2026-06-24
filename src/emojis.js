@@ -1,0 +1,53 @@
+function componentEmoji(name) {
+  const emoji = { name };
+  Object.defineProperty(emoji, "toString", {
+    value: () => "",
+    enumerable: false,
+  });
+  return emoji;
+}
+
+module.exports = {
+  check: componentEmoji("✅"),
+  cross: componentEmoji("❌"),
+  error: componentEmoji("❌"),
+  info: componentEmoji("ℹ️"),
+  warn: componentEmoji("⚠️"),
+  dot: componentEmoji("•"),
+  load: componentEmoji("⏳"),
+  pause: componentEmoji("⏸️"),
+  play: componentEmoji("▶️"),
+  stop: componentEmoji("⏹️"),
+  voldown: componentEmoji("🔉"),
+  volup: componentEmoji("🔊"),
+  skip: componentEmoji("⏭️"),
+  previous: componentEmoji("⏮️"),
+  like: componentEmoji("💜"),
+  shuffle: componentEmoji("🔀"),
+  loop: componentEmoji("🔁"),
+  dance: componentEmoji("🎵"),
+  youtube: componentEmoji("▶️"),
+  spotify: componentEmoji("🎧"),
+  ytmusic: componentEmoji("🎵"),
+  applemusic: componentEmoji("♪"),
+  deezer: componentEmoji("♫"),
+  jiosaavn: componentEmoji("♬"),
+  wickarrow: "",
+  gwy: "",
+  blank: "",
+  arrowright: componentEmoji("➡️"),
+  hastag: "",
+  owner: "",
+  add: componentEmoji("➕"),
+  duration: "",
+  dnd: "",
+  idle: "",
+  streaming: "",
+  admin: "",
+  manager: "",
+  developer: "",
+  staff: "",
+  vip: "",
+  gaana: componentEmoji("♪"),
+  soundcloud: componentEmoji("☁️"),
+};
