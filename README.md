@@ -149,3 +149,8 @@ For Linux deployment:
 npm run deploy:linux
 ```
 
+For Tutorial Setup:
+
+```bash
+https://youtu.be/TxwaKDoaGQA?si=RHO_Pxzh5Kx3aggC
+```
