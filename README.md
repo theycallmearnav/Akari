@@ -20,8 +20,8 @@ Node.js `20` and `23` are not supported by this project. The repo uses `engine-s
 Clone the repository:
 
 ```bash
-git clone https://github.com/YOUR_USERNAME/YOUR_REPOSITORY.git
-cd YOUR_REPOSITORY
+git clone https://github.com/theycallmearnav/Akari.git
+cd Akari
 ```
 
 Install dependencies:
