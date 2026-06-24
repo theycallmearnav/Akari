@@ -152,5 +152,5 @@ npm run deploy:linux
 For Tutorial Setup:
 
 ```bash
-https://youtu.be/TxwaKDoaGQA?si=RHO_Pxzh5Kx3aggC
+https://www.youtube.com/watch?v=qDrRk2rd3t4&t=76s
 ```
